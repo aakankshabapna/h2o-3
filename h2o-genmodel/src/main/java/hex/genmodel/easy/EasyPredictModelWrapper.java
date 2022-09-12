@@ -115,7 +115,7 @@ public class EasyPredictModelWrapper implements Serializable {
     private boolean enableLeafAssignment = false;  // default to false
     private boolean enableGLRMReconstrut = false;
     private boolean enableStagedProbabilities = false;
-    private boolean enableContributions = false;
+    private boolean enableContributions = true;
     private boolean useExternalEncoding = false;
     private int glrmIterNumber = 100; // default set to 100
 
